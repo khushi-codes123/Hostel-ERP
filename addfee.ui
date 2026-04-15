@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddFee</class>
+ <widget class="QDialog" name="AddFee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>811</width>
+    <height>655</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="lineEditStudentID">
+     <property name="text">
+      <string>Student ID</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEditAmount">
+     <property name="text">
+      <string>Fee Amount</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBoxFeeType">
+     <item>
+      <property name="text">
+       <string>Hostel</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mess</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDateEdit" name="dateEditFee"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButtonSaveFee">
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButtonCancelFee">
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
